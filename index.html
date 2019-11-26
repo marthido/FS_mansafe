@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initialscale=1">
+    <title>MANSAFE Raw Material Repository</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <!-- style sheet for slider animation -->
+    <link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/stylex.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="file:///C:/Users/Bigbrotherbayelsa/Downloads/fontawesome-free-5.11.2-web/css/all.css">
+  </head>
+  <body>
+    <div id="home">
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    	<!--  <a class="navbar-brand" href="index.php"><img src="img/nuno.png"></a> -->
+    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarReponsive">
+    			<span class="navbar-toggler-icon"></span>
+    		</button>
+
+    		<div class="collapse navbar-collapse" id="navbarReponsive">
+    			<ul class="navbar-nav ml-auto">
+    				<li class="nav-item">
+    					<a class="nav-link" href="#home">Home</a>
+    				</li>
+    				<li class="nav-item">
+    					<a class="nav-link" href="html/Dashboard.html">Vendors</a>
+                <ul class="dropdown-vendors">
+                  <li class="dropdown-Vendors-li"><a href="#">Sign up</a></li>
+                  <li class="dropdown-vendors-li"><a href="#">Sign in</a></li>
+                </ul>
+    				</li>
+    				<li class="nav-item">
+    					<a class="nav-link" href="#Search">Sign In</a>
+    				</li>
+            <li class="active">
+              <div class="search-box">
+                <input type="text">
+                <input type="button" value="search">
+              </div>
+            </li>
+    			</ul>
+    		</div>
+     </nav>
+    </div>
+    <!-- Start Image slider-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="10000">
+    	<ol class="carousel-indicators">
+    		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    		<li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+    		<li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+    		<li data-target="#carouselExampleIndicators" data-slide-to="3" ></li>
+    	</ol>
+    	<div class="carousel-inner" role="listbox">
+    		<!--Slide 1 -->
+    		<div class="carousel-item active" style="background-image: url(img/img_1.jpg);">
+    			<div class="carousel-caption text-center">
+    				<h1> Welcome to MANSAFE </h1>
+    				<h2> Raw Material Search</h2>
+            <form class="search-form raw_material_search_form js-search-form" action="" method="" role="search">
+              <div class="search_jobs search_jobs--frontpage has-one-field">
+                <div class="search-field-wrapper search-filter-wrapper has--menu">
+                  <label for="search_keywords">Keywords</label>
+                  <input class="search-field js-search-suggestion-field" type="text" name="search-keywords" id="search-keywords" placeholder="Cassava, Wheat bran, Rice bran"></input>
+                </div>
+              </div>
+            </form>
+    				<a class="btn btn-outline-light btn-lg" href="#Search"> Get Started</a>
+    			</div>
+    		</div>
+    		<!--Slide 2 -->
+    		<div class="carousel-item" style="background-image: url(img/greenfield.jpg);">
+    			<div class="carousel-caption text-center">
+    				<h1> Welcome to MANSAFE</h1>
+    				<h2> Raw Material Search</h2>
+    				<a class="btn btn-outline-light btn-lg" href="#Search"> Get Started</a>
+    			</div>
+    		</div>
+    		<!--Slide 3 -->
+    		<div class="carousel-item" style="background-image: url(img/img_2.jpg);">
+    			<div class="carousel-caption text-center">
+    				<h1> Welcome to MANSAFE</h1>
+    				<h2> Raw Material Search</h2>
+    				<a class="btn btn-outline-light btn-lg" href="#Search"> Get Started</a>
+    			</div>
+    		</div>
+        <!-- Slide 4 -->
+    		<div class="carousel-item" style="background-image: url(img/img_3.jpg);">
+    			<div class="carousel-caption text-center">
+    				<h1> Welcome to MANSAFE</h1>
+    				<h2> Raw Material Search</h2>
+    				<a class="btn btn-outline-light btn-lg" href="#Search"> Get Started</a>
+    			</div>
+    		</div>
+    	</div>
+    	<!-- End of carousel Inner-->
+    	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    	</a>
+    	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    	</a>
+    </div>
+    <!-- Script source files -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"-->
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
