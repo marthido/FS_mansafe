@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initialscale=1">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/loginStyle.css">
+    <link rel="stylesheet" href="css/stylex.css">
+    <script type="text/javascript" src="Bootsrap/js/bootstrap.min.js">
+
+    </script>
+    <title>Mansafe Vendors Login and sign up form</title>
+  </head>
+  <body style="background-image: url(img/img_1.jpg); background-attachment: fixed; background-size: cover;">
+    <div id="home">
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    	<!--  <a class="navbar-brand" href="index.php"><img src="img/nuno.png"></a> -->
+    		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarReponsive">
+    			<span class="navbar-toggler-icon"></span>
+    		</button>
+
+    		<div class="collapse navbar-collapse" id="navbarReponsive">
+    			<ul class="navbar-nav ml-auto">
+    				<li class="nav-item">
+    					<a class="nav-link" href="#home">Home</a>
+    				</li>
+    				<li class="nav-item">
+    					<a class="nav-link" href="html/Dashboard.html">Vendors</a>
+    				</li>
+    				<li class="nav-item">
+    					<a class="nav-link" href="#Search">Sign In</a>
+    				</li>
+            <li class="active">
+              <div class="search-box">
+                <input type="text">
+                <input type="button" value="search">
+              </div>
+            </li>
+    			</ul>
+    		</div>
+     </nav>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h1 class="text-center">Login as Vendor</h1>
+          <label class="label control-label"> User name or Email</label>
+          <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+              <input type="text" class="form-control" name="mail" placeholder="E-mail">
+          </div>
+          <label class="label control-label">Password</label>
+          <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+              <input type="password" class="form-control" name="Password" placeholder="Password">
+          </div>
+          <!-- Make a row for 2 col-md-6 -->
+          <div class="row">
+            <div class="col-md-6">
+              <input type="checkbox"><small>Remember me</small>
+            </div>
+            <div class="col-md-6">
+              <a href="#"><p class="text-right">Forget Password</p></a>
+            </div>
+          </div>
+          <!-- Close -->
+          <a href="#"><input type="button" class="button-sign-in" value="SIGN IN"></a>
+          <p class="text-center">Not a member yet?<a href="#">Sign Up</a></p>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+          <h2 class="text-center">Sign Up</h2>
+          <label class="label control-label">Name</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span  class="glyphicon glyphicon-user"></span></span>
+            <input type="text" class="form-control" name="Name" placeholder="Name"></input>
+          </div>
+          <label class="label control-label">E-mail</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span  class="glyphicon glyphicon-envelope"></span></span>
+            <input type="email" class="form-control" name="mail" placeholder="E-mail"></input>
+          </div>
+          <label class="label control-label">Contact</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span  class="glyphicon glyphicon-envelope"></span></span>
+            <input type="number" class="form-control" name="phone number" placeholder="Phone Number"></input>
+          </div>
+          <label class="label control-label">Password</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span  class="glyphicon glyphicon-lock"></span></span>
+            <input type="Password" class="form-control" name="Password" placeholder="Password"></input>
+          </div>
+          <label class="label control-label">Re-type Password</label>
+          <div class="input-group">
+            <span class="input-group-addon"><span  class="glyphicon glyphicon-lock"></span></span>
+            <input type="Re-type Password" class="form-control" name="Re-type Password" placeholder="Re-type Password"></input>
+          </div>
+          <a href="#"><input type="button" class="button-sign-in" Value="Sign Up"></a>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
